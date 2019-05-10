@@ -1,0 +1,108 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  padding: 2rem;
+}
+button {
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 35px;
+  padding-top: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.comment-box {
+  width: 100%;
+  color: #6b7a8f;
+  background-color: #fff;
+  padding: 0.2rem 1rem 2rem;
+  margin-top: 25px;
+  -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+  -moz-box-shadow: 1px 1px 2px 2px #ccc;
+  box-shadow: 1px 1px 2px 2px #ccc;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+.comment-form {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.comment-form-fields {
+  margin-bottom: 0.25rem;
+}
+
+#reviewText {
+  font-size: 16px;
+}
+
+.reviewName,
+textarea {
+  border: none;
+  border-bottom: 1px solid #6b7a8f;
+  font-size: 18px;
+  padding: 0.25rem 0;
+  width: 97%;
+  font-style: italic;
+  height: 45px;
+  opacity: 0.5;
+}
+
+.postReviewBtn {
+  color: #fff;
+  background-color: #f7882f;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.comment-count {
+  color: #f7882f;
+}
+#comment-reveal {
+  float: right;
+  font-size: 14px;
+  background-color: #f7882f;
+  color: #fff;
+  margin-right: 60px;
+}
+.comment {
+  border-top: 0.125rem solid #6b7a8f;
+}
+
+.comment-header {
+  font-size: 16px;
+}
+.comment-body {
+  font-style: italic;
+  margin-left: 1rem;
+  color: #6b7a8f;
+  font-size: 22px;
+}
+.comment-footer {
+  margin-bottom: 1rem;
+}
+.comment-footer-delete {
+  padding: 0.2rem 0;
+  color: #f7882f;
+  text-decoration: none;
+}
+
+.comment-footer-delete:hover {
+  color: #f7882f;
+  font-weight: bold;
+}

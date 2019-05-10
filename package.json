@@ -1,0 +1,52 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && yarn install;",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "downshift": "^2.0.10",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "firebase": "^5.10.1",
+    "if-env": "^1.0.4",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-simple": "^0.5.1",
+    "mysql2": "^1.5.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-dropzone-s3-uploader": "^1.1.0",
+    "react-firebase-file-uploader": "^2.4.2",
+    "react-protected-mailto": "^1.0.3",
+    "react-resize-image": "^1.0.4",
+    "react-scripts": "^3.0.0",
+    "react-select": "^1.2.1",
+    "react-validation": "^3.0.7",
+    "react-validator": "^0.1.0",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^5.4.0",
+    "typescript": "^3.4.5",
+    "yarn": "^1.15.2"
+  }
+}

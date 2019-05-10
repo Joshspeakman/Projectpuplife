@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:3001/",
+  "dependencies": {
+    "@pusher/chatkit": "^0.7.16",
+    "axios": "^0.18.0",
+    "downshift": "^2.0.10",
+    "firebase": "^5.2.0",
+    "mdbreact": "^4.5.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-dropzone": "^4.2.11",
+    "react-dropzone-s3-uploader": "^1.1.0",
+    "react-firebase-file-uploader": "^2.4.2",
+    "react-mailto": "^0.4.0",
+    "react-protected-mailto": "^1.0.3",
+    "react-resize-image": "^1.0.4",
+    "react-responsive-modal": "^3.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-star-rating-component": "^1.4.1",
+    "react-validation": "^3.0.7",
+    "s3-uploader-react": "^0.1.4-alpha",
+    "validator": "^10.4.0",
+    "yarn": "^1.15.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

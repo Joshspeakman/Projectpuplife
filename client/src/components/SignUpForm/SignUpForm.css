@@ -1,0 +1,35 @@
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  border: 1px solid #f7c331;
+  font-size: 30px;
+}
+
+.signUpSubmitBtn {
+  height: 100px;
+  width: 300px;
+  font-size: 30px;
+  background-color: #f7882f;
+  color: white;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.signUpPageTitle {
+  font-size: 40px;
+  padding-top: 50px;
+  color: #6b7a8f;
+}
+
+.searchForm {
+  margin-bottom: 50px;
+}
+
+.renderedImg {
+  width: 300px;
+  height: 185px;
+  float: right;
+  margin-right: 100px;
+  image-orientation: from-image;
+}

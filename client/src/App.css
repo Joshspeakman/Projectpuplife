@@ -1,0 +1,31 @@
+html {
+  /* 1 rem = 10px */
+  font-size: 62.5%;
+}
+
+.title {
+  text-align: left;
+  font-size: 20rem;
+  color: white;
+  padding-top: 7rem;
+  padding-left: 7rem;
+}
+
+.description {
+  padding-left: 7rem;
+  text-align: left;
+  color: white;
+  font-size: 3rem;
+}
+
+.dogsPic {
+  justify-content: flex-end;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-container {
+  padding: 0;
+}

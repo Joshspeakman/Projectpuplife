@@ -1,0 +1,19 @@
+.hero {
+  height: 95vh;
+
+  position: relative;
+}
+
+.hero video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  /* background-size: cover;
+  background-position: top;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(220, 199, 170, 0.8),
+      rgba(198, 179, 153, 0.8)
+    ),
+    url(../../assets/dogs.jpg); */
+}

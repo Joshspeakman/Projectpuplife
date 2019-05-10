@@ -1,0 +1,33 @@
+.dogCard,
+.card {
+  margin-top: 30px;
+  text-align: center;
+  color: #6b7a8f;
+  border-radius: 25px;
+}
+
+#dCard {
+  border-radius: 25px;
+}
+
+#petName {
+  font-size: 60px;
+  color: #6b7a8f;
+}
+
+#city,
+#description {
+  font-size: 40px;
+  color: #6b7a8f;
+}
+
+.profileImg {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.view {
+  background-image: url("../../assets/wov.png");
+  border-radius: 25px;
+}

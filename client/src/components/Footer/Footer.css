@@ -1,0 +1,55 @@
+footer {
+  background: black;
+  color: white;
+  display: "block";
+  padding: 20px;
+  height: "40px";
+  width: "100%";
+  flex: 1;
+}
+
+.footer-link {
+  font-size: 18px;
+  text-align: right;
+  padding: 10px;
+  margin-right: 80px;
+  display: inline-block;
+}
+
+.linkDiv {
+  margin-top: 35px;
+  text-align: right;
+}
+
+.emailLink {
+  font-size: 0;
+}
+
+.emailLink:after {
+  content: "sU tcatnoC";
+  font-size: 18px;
+}
+
+.emailLink:hover {
+  color: #f7882f;
+}
+
+.footer-text {
+  font-size: 10px;
+  background-color: black;
+}
+
+.footer-logo {
+  max-width: 300px;
+  max-height: 150px;
+}
+
+.mt-4,
+.my-4 {
+  margin-top: 100px !important;
+}
+
+/* sticky footer */
+/* display: flex;
+    min-height: 100vh;
+    flex-direction: column; */

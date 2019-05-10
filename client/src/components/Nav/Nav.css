@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+ul > div {
+  display: inherit;
+}
+
+nav {
+  background-color: #000000;
+  font-size: 2rem;
+}
+
+.nav-left {
+  margin-right: auto;
+}
+
+.nav-title {
+  font-size: 4rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #f7882f;
+}

@@ -1,0 +1,87 @@
+.submitButton {
+  height: 100px;
+  width: 125px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  background-color: #f7882f;
+  color: white;
+  border-radius: 25px;
+}
+
+.styles_modal__gNwvD {
+  border-radius: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin: 30px;
+  height: 60px;
+  width: 200px;
+}
+
+input::placeholder {
+  font-size: 30px;
+}
+
+#joinUs {
+  height: 10rem;
+  width: 20rem;
+  background-color: #f7882f;
+  color: white;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  font-size: 3rem;
+  position: relative;
+  border-radius: 25px;
+}
+
+#username,
+#password {
+  width: 75%;
+}
+
+/* Button styling */
+/* Grow Rotate */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #joinUs {
+    height: 10rem;
+    width: 20rem;
+    background-color: #f7882f;
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+    position: relative;
+  }
+}
+
+/* Portrait and Landscape */
+@media screen and (max-width: 480px) and (max-height: 800px) {
+  #joinUs {
+    height: 10rem;
+    width: 20rem;
+    background-color: #f7882f;
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+    position: relative;
+  }
+}
